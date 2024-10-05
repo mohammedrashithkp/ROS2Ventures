@@ -1,0 +1,25 @@
+# Ignore build artifacts
+/build/
+/install/
+/log/
+*.pyc
+__pycache__/
+*.pdb
+*.db
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore any other files specific to your setup
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
